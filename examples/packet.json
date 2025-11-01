@@ -1,0 +1,15 @@
+{
+  "name": "packet-1",
+  "ver": "1.10.0",
+  "output": "./build",
+  "targets": [
+    { "path": "./examples/data/*.txt", "exclude": "*.tmp" }
+  ],
+  "ssh": {
+    "host": "127.0.0.1",
+    "port": 2222,
+    "user": "user",
+    "password": "pass",
+    "remote_path": "/config/pm"
+  }
+}

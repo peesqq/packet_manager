@@ -1,0 +1,33 @@
+# Binaries
+pm
+*.exe
+*.out
+*.test
+
+# Build artifacts
+/build/
+/dist/
+/tmp/
+/bin/
+/obj/
+
+# Dependency / module cache
+/go.sum
+vendor/
+
+# Logs
+*.log
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# IDE / editor files
+.vscode/
+.idea/
+*.iml
+
+# Temporary
+*.tmp
+*.bak
+*~
